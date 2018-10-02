@@ -1,10 +1,11 @@
 languaje: java
 os: osx
 branches:
-  only:
+only:
   - gh-pages
   - /.*/
 rvm:
- - 2.2
- - jruby
-script: - ant build
+  - 2.2
+  - jruby
+script: 
+  - ant build
