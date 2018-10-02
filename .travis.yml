@@ -1,0 +1,6 @@
+languaje: java
+os: osx
+rvm:
+ - 2.2
+ - jruby
+script: - ant build
