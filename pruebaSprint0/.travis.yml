@@ -1,2 +1,3 @@
 languaje: java
+os: osx
 script: - ant build
