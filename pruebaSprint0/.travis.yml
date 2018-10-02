@@ -1,9 +1,5 @@
 languaje: java
 os: osx
-branches:
-only:
-  - gh-pages
-  - /.*/
 rvm:
   - 2.2
   - jruby
