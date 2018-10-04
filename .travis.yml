@@ -1,0 +1,9 @@
+language: java
+jdk:
+  oraclejdk8
+script:
+  ant -buildfile pruebaSprint0/build.xml
+branches:
+  only:
+  - gh-pages
+  - /.*/
