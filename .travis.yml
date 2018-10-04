@@ -2,8 +2,7 @@ language: java
 jdk:
   oraclejdk8
 script:
-  apt-get install ant
-  ant -buildfile build.xml
+  ant -buildfile pruebaSprint0/build.xml
 branches:
   only:
   - gh-pages
