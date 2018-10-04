@@ -6,6 +6,7 @@ jdk:
 # see https://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure
 sudo: false
 script:
--ant build
+  sudo apt-get install ant
+  ant build
 # cache the build tool's caches
 install: ./install-dependencies.sh
