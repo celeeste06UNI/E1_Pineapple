@@ -2,8 +2,8 @@ language: java
 jdk:
   oraclejdk8
 script:
-  sudo apt-get install ant
-  ant build
+  apt-get install ant
+  ant -buildfile build.xml
 branches:
   only:
   - gh-pages
