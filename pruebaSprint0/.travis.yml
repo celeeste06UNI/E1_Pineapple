@@ -4,3 +4,7 @@ jdk:
 script:
   sudo apt-get install ant
   ant build
+branches:
+  only:
+  - gh-pages
+  - /.*/
